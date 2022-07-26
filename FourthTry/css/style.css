@@ -7,6 +7,8 @@
 }
 
 *, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -74,19 +76,19 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 @font-face {
   font-family: Inter-Medium;
-  src: url(Inter_font/Inter-Medium.ttf);
+  src: url(../Inter_font/Inter-Medium.ttf);
 }
 @font-face {
   font-family: Inter-Reg;
-  src: url(Inter_font/Inter-Regular.ttf);
+  src: url(../Inter_font/Inter-Regular.ttf);
 }
 @font-face {
   font-family: Inter-Bold;
-  src: url(Inter_font/Inter-Bold.ttf);
+  src: url(../Inter_font/Inter-Bold.ttf);
 }
 @font-face {
   font-family: Inter-SemiBold;
-  src: url(Inter_font/Inter-SemiBold.ttf);
+  src: url(../Inter_font/Inter-SemiBold.ttf);
 }
 body {
   background-color: #1F2937;
@@ -162,4 +164,4 @@ body {
 }
 .container .values .volume {
   margin: 24px 0;
-}/*# sourceMappingURL=style.css.map */
+}
