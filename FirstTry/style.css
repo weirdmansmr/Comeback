@@ -1,0 +1,95 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url(/FirstTry/CursedTimerUlil-Aznm.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tablo {
+    font-family: CursedTimer;
+    color: #F94F6D;
+    font-size: 10em;
+    
+}
+
+h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1B244A;
+}
+
+.plus_button {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-family: CursedTimer;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    margin: 0 4px;
+    font-size: 1.2em;
+}
+
+.text_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tablo_cont {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    margin: 30px 10px;
+    border-radius: 10px;
+}
+
+.COSTIL {
+    display: flex;
+}
+
+.newgame_button {
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    font-family: CursedTimer;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    margin: 10px 4px 0 4px;
+    font-size: 1.4em;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    height: 60px;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    background-color:#080001;
+}
+
+.timer_tablo {
+    font-size: 2em;
+    color: #F94F6D;
+    font-family: CursedTimer;
+}

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+@font-face {
+  font-family: Inter-Medium;
+  src: url(Inter_font/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: Inter-Reg;
+  src: url(Inter_font/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(Inter_font/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(Inter_font/Inter-SemiBold.ttf);
+}
+body {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 552px;
+  height: 731px;
+  border: 1px solid #6943FF;
+}
+.container .converter__input {
+  height: 285px;
+  background-color: #6943FF;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .converter__input h1 {
+  font-size: 28px;
+  font-family: Inter-Bold;
+}
+.container .converter__input #input_num {
+  background-color: #6943FF;
+  border: 1px solid #B295FF;
+  height: 83px;
+  font-size: 58px;
+  text-align: center;
+  font-family: Inter-Bold;
+  width: 117px;
+  color: white;
+  border-radius: 5px;
+}
+.container .converter__input #btn_conv {
+  font-family: Inter-Medium;
+  width: 117px;
+  height: 42px;
+  font-size: 16px;
+  border: none;
+  color: #3D3D3D;
+  border-radius: 5px;
+}
+.container .values {
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .values .values_fields {
+  background-color: #273549;
+  width: 500px;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.container .values .values_fields .description {
+  color: #CCC1FF;
+  font-size: 20px;
+  font-family: Inter-SemiBold;
+}
+.container .values .values_fields .field {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Inter-Reg;
+}
+.container .values .volume {
+  margin: 24px 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="COSTIL">
+            <div class="text_cont">
+                <h3>HOME</h3>
+                <div class="tablo_cont">
+                    <p class="tablo" id="home_num">0</p>
+                </div>
+                <div>
+                    <button class="plus_button" id="homePlusOne" onclick="concatHome(1)">+1</button>
+                    <button class="plus_button" id="homePlusTwo" onclick="concatHome(2)">+2</button>
+                    <button class="plus_button" id="homePlusThree" onclick="concatHome(3)">+3</button>
+                </div>
+            </div>
+            <div class="text_cont">
+                <h3>GUEST</h3>
+                <div class="tablo_cont">
+                    <p class="tablo" id="guest_num">0</p>
+                </div>
+                <div>
+                    <button class="plus_button" id="guestPlusOne" onclick="concatGuest(1)">+1</button>
+                    <button class="plus_button" id="guestPlusTwo" onclick="concatGuest(2)">+2</button>
+                    <button class="plus_button" id="guestPlusThree" onclick="concatGuest(3)">+3</button>
+                </div>
+            </div>
+        </div>    
+        <button class="newgame_button" id="newGame" onclick="newGame()">New Game</button>
+        <div class="timer">
+            <p id="tablet" class="timer_tablo">60:00</p>
+        </div>
+        <div class="sohr">
+            <p id="sohran"></p>
+        </div>
+    </div>
+    <script src="/FirstTry/code.js"></script>
+</body>
+</html>

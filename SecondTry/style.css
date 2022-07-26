@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Inter-Thin;
+    src: url(/SecondTry/Inter_font/Inter-Thin.ttf);
+}
+@font-face {
+    font-family: Inter-Reg;
+    src: url(/SecondTry/Inter_font/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Karla-Bold;
+    src: url(/SecondTry/Karla_font/Karla-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1F2937;
+}
+
+.container {
+    
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cont_box {
+    width: 550px;
+    height: 550px;
+    border: 1px solid #55F991;
+    border-radius: 6px;
+    padding: 0 50px 0 50px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start
+}
+
+.white_h1 {
+    font-family: Karla-Bold;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.green_h2 {
+    font-family: Karla-Bold;
+    color: #4ADF86;
+    font-size: 40px;
+}
+
+.grey_h3 {
+    font-family: Inter-Thin;
+    color: #D5D4D8;
+    font-size: 20px;
+    margin: 10px 0 51px 0;
+}
+
+button {
+    font-family: Inter-Reg;
+    border: 0;
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-color: #10B981;
+}
+
+.password_fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #273549;
+    border-radius: 6px;
+    width: 211px;
+    height: 39px;
+    color: #55F991;
+    font-family: Inter-Reg;
+}
+
+.fields {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    width: 446px;
+    margin: 35px 0;
+    border: 1px solid #2F3E53;
+}
